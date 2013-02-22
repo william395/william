@@ -1,0 +1,160 @@
+@charset "utf-8";
+/*
+*@author:William Fu
+*@e-mail:william395@qq.com
+*@date:2012-2-4
+*@version:1.00
+*/
+
+@media screen and (max-width:480px) and (max-device-width:480px){
+body{
+	width: 480px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+#background{
+	background: url("../images/onPhoneBg.jpg") no-repeat;
+	width: 100%;
+}
+#header{
+	width: 100%;
+	height: 70px;
+}
+#title {
+	float: left;
+	margin-right: 0px;
+
+}
+#top{
+	height: 70px;
+	
+}
+.shadow_double{
+	
+}
+.shadow{
+	
+}
+#logo{
+	position: absolute;
+	display: block;
+	top: -50px;
+}
+#logo p{
+	font-family: "微软雅黑";
+	font-size: 40px;
+}
+#main{
+	width: 100%;
+	height: 1000px;
+}
+#content{
+	width: 480px;
+}
+.top_shadow{
+	
+}
+.nav{
+	width: 100%;
+	height: 250px;
+	color: #feeeed;
+	margin-top: 110px;
+}
+canvas{
+	display: block;
+}
+.square{
+	width: 100%;
+	height: 120px;
+	display: block;
+	margin: 0px auto;
+}
+.rect{
+	width: 100%;
+	height: 120px;
+	display: block;
+	margin: 0px auto;
+}
+.rect:hover,.square:hover{
+	background-color:  #33a3dc;
+	border-top: 1px solid #0081b3;
+}
+.square img{
+	position: static;
+	width:85px;
+	margin: 0px auto;
+}
+.rect img{
+	position: static;
+	width:85px;
+	margin: 0px auto;
+}
+.square p,.rect p{
+	position: absolute;
+	left: 50px;
+	top: 95px;
+}
+.towDimCode{
+	display: none;
+}
+.button{
+	float: left;
+	margin-left: 80px;
+}
+.button:hover{
+	
+}
+#content a#download,#content a#download:visited{
+
+
+}
+#content a#download:hover,#content a#download:active{
+	text-decoration: none;
+	color: #7fb80e;
+}
+.article{
+	display: none;
+}
+#phone{
+	display: none;
+}
+#slideshow{
+	display: none;
+}
+.center{
+	width: 100%;
+}
+
+#footer{
+	margin-top: 0px;
+	height: 150px;
+	width: 100%;
+	background: url("../images/footer.png") repeat-x;
+}
+#footer a{
+	color: #281f1d;
+}
+#footer a:hover{
+	text-decoration: none;
+	color: #ff8329;
+}
+#code{
+	display: none;
+}
+#code p{
+
+}
+#pic_list {
+	display: none;
+}
+img#this_pic{
+	display: none;
+}
+.copyright{
+
+	width: 400px;
+}
+
+
+
+}
